@@ -2,7 +2,7 @@ var request = require('request');
 var prompt = require('prompt');
 var htmlToJson=require('html-to-json');
 var html2json = require('html2json').html2json;
-
+const chalk = require('chalk');
 /*prompt.start();
   prompt.get(['regno'], function (err, result) {
   	request('http://aucoe.annauniv.edu/cgi-bin/result/cgrade.pl?regno='+result.regno, function (error, response, body) {
@@ -21,7 +21,7 @@ var html2json = require('html2json').html2json;
 prompt.start();
   prompt.get(['Register_Number'], function (err, result) {
   	request('http://aucoe.annauniv.edu/cgi-bin/result/cgrade.pl?regno='+result.Register_Number, function (err, response, body) {
-		if(response && response.statusCode==200){
+		if(response.statusCode==200){
 		body = html2json(body);
 		console.log(" ");
 		console.log(body.child[4].child[1].child[3].child[1].child[1].child[0].child[1].child[0].child[0].child[0].text);
@@ -45,13 +45,10 @@ prompt.start();
 		console.log("  "+body.child[4].child[1].child[3].child[3].child[1].child[6].child[16].child[1].child[0].child[0].text+"	  "+body.child[4].child[1].child[3].child[3].child[1].child[6].child[16].child[3].child[0].child[0].text+"	 "+body.child[4].child[1].child[3].child[3].child[1].child[6].child[16].child[7].child[0].child[0].text);
 		console.log("  "+body.child[4].child[1].child[3].child[3].child[1].child[6].child[18].child[1].child[0].child[0].text+"	  "+body.child[4].child[1].child[3].child[3].child[1].child[6].child[18].child[3].child[0].child[0].text+"	 "+body.child[4].child[1].child[3].child[3].child[1].child[6].child[18].child[7].child[0].child[0].text);
 		}
-		else if(response && response.statusCode!=200){
+		if(err || response.statusCode!=200){
 			console.log("Oops! Invalid Register Number");
 		}
 		console.log(" ");
-		console.log(" ");
-		console.log("<<<<<<<<<<<<<<<<<	"+"Made with ♫ by Kishore Kumar"+"	>>>>>>>>>>>>>>>>>");
-		
-
+		console.log(chalk.red("<<<<<<<<<<<<<<<<<	"+"Made with ♫ by ")+chalk.red.bold("Kishore Kumar")+chalk.red("	>>>>>>>>>>>>>>>>>"));
 		});
 });
