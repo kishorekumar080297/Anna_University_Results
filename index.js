@@ -50,7 +50,7 @@ prompt.start();
 		}
 		console.log(" ");
 		console.log(" ");
-		console.log("<<<<<<<<<<<<<<<<<	"+"Made with ♫ by Kishore Kumar"+	">>>>>>>>>>>>>>>>>");
+		console.log("<<<<<<<<<<<<<<<<<	"+"Made with ♫ by Kishore Kumar"+"	>>>>>>>>>>>>>>>>>");
 		
 
 		});
