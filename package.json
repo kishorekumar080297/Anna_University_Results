@@ -1,0 +1,17 @@
+{
+  "name": "au_results",
+  "version": "1.0.0",
+  "description": "Fetches the results from Anna University",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kishore Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "html-to-json": "^0.6.0",
+    "html2json": "^1.0.2",
+    "prompt": "^1.0.0",
+    "request": "^2.81.0"
+  }
+}
