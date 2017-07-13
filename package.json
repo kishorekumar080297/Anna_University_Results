@@ -1,6 +1,6 @@
 {
-  "name": "au_results",
-  "version": "1.6.0",
+  "name": "au-results",
+  "version": "1.6.2",
   "description": "Fetches the results from Anna University",
   "main": "index.js",
   "scripts": {
