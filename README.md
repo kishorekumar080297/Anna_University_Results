@@ -1,5 +1,5 @@
 # Anna_University_Results-cli
-Fetch Anna University Results using CLI
+Fetch Anna University Results using CLI (Using Register Number Alone)
 
 ## Install Npm
 ```bash
