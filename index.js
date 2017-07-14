@@ -49,6 +49,6 @@ prompt.start();
 			console.log("Oops! Invalid Register Number");
 		}
 		console.log(" ");
-		console.log(chalk.red("<<<<<<<<<<<<<<<<<	"+"Made with ♫ by ")+chalk.red.bold("Kishore Kumar")+chalk.red("	>>>>>>>>>>>>>>>>>"));
+		console.log(chalk.red("<<<<<<<<<<<<<<<<<	Made with ♫ by ")+chalk.red.bold("Kishore Kumar")+chalk.red("	>>>>>>>>>>>>>>>>>"));
 		});
 });
