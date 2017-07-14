@@ -1,6 +1,11 @@
 # Anna_University_Results-cli
 Fetch Anna University Results using CLI
 
+## Install Npm
+```bash
+npm install
+```
+
 ## Usage
 ```bash
 node index.js
