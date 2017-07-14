@@ -1,6 +1,6 @@
 {
   "name": "au-results",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "description": "Fetches the results from Anna University",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,13 @@
     "html2json": "^1.0.2",
     "prompt": "^1.0.0",
     "request": "^2.81.0"
-  }
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kishorekumar080297/Anna_University_Results.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kishorekumar080297/Anna_University_Results/issues"
+  },
+  "homepage": "https://github.com/kishorekumar080297/Anna_University_Results/issues#readme"
 }
