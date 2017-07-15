@@ -13,7 +13,7 @@ npm start
 ```
 
 ## Example
-![Alt text](/img/image.jpg?raw=true "Optional Title")
+![Alt text](/img/image.png?raw=true)
 
 ## [License](/LICENSE.md)
 Copyright (c) 2017 Kishore Kumar <kishorekumar080297@gmail.com>  
