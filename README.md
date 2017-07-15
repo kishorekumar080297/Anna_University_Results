@@ -12,5 +12,8 @@ npm install
 npm start
 ```
 
+## Example
+![Alt text](/img/image.jpg?raw=true "Optional Title")
+
 ## [License](/LICENSE.md)
 Copyright (c) 2017 Kishore Kumar <kishorekumar080297@gmail.com>  
