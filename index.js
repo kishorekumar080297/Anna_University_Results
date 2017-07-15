@@ -18,7 +18,6 @@ const chalk = require('chalk');
 		// console.log(body.child[4].child[1].child[3].child[3].child[1]);
 		});
   	});*/
-// prompt.start();
   prompt.get(['Register_Number'], function (err, result) {
   	request('http://aucoe.annauniv.edu/cgi-bin/result/cgrade.pl?regno='+result.Register_Number, function (err, response, body) {
 		if(response.statusCode==200){
