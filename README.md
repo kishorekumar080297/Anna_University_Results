@@ -15,5 +15,5 @@ npm start
 ## Example
 ![Alt text](/img/image.png?raw=true)
 
-## [License](/LICENSE.md)
+## License
 Copyright (c) 2017 Kishore Kumar <kishorekumar080297@gmail.com>  
